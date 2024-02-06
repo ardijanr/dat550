@@ -3,13 +3,14 @@
     pkgs.pandoc-cli
     ];
 
-  kernel.python.dat600 = {
+  kernel.python.dat550 = {
     enable = true;
     extraPackages = ps: [
       ps.numpy
       ps.matplotlib
       ps.ipykernel
       ps.nbmerge
+      ps.pandas
     ];
   };
   kernel.rust."example".enable = true;
