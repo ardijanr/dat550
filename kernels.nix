@@ -11,6 +11,7 @@
       ps.ipykernel
       ps.nbmerge
       ps.pandas
+      ps.scikit-learn
     ];
   };
   kernel.rust."example".enable = true;
