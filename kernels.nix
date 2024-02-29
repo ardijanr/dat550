@@ -12,6 +12,9 @@
       ps.nbmerge
       ps.pandas
       ps.scikit-learn
+      ps.scipy
+      ps.requests
+      ps.nltk
     ];
   };
   kernel.rust."example".enable = true;
